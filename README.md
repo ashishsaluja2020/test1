@@ -44,6 +44,14 @@ To observe refrence path and current path with respect to each other on matplot 
 rosrun hk_adas_boat_gazebo active_cruise_test.py
 ```
 
+# Scripts 
+
+## joy_parser.py
+
+This script integerates different modes of ADAS including active cruise with the switch functionality.
+
+active cruise has been assigned button "Y" on the joystick.
+
 ```
 /thrusters/left_thrust_angle
 /thrusters/left_thrust_cmd
